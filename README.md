@@ -1,25 +1,8 @@
-# ReduxSimpleStarter
+# React Redux Blogger
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This is a blog website where users can add and delete their posts by navigating through different webpages.
 
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+* Applied React Router to render different components according to different urls
+* Applied validation on redux forms to avoid mallicious input (eg. to display an error message when user didn't enter anything in a field but want to submit the form)
+* Added redirecting button/Link on the webpage to let user navigate through different webpages
+* Used Axios library to fetch, post, save, and delete posts using remote backend API (Redux Blog Post API)
